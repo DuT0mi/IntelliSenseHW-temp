@@ -42,7 +42,8 @@ Follow these steps to configure and deploy the solution:
    ```bash
    sudo dmesg | grep tty
    ```
-<img src="https://github.com/DuT0mi/IntelliSenseHW-temp/blob/main/img/hw_setup.jpeg" />
+<img src="https://github.com/DuT0mi/IntelliSenseHW-temp/blob/main/img/hw_setup.jpeg">
+   
 5. **Build and Flash**:
    Build the project, set up mandatory parameters, and flash the firmware. Replace the port (e.g. `/dev/ttyACM0`) with the detected one if different.
    ```bash
