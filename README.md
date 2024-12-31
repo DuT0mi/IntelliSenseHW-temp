@@ -79,7 +79,7 @@ To use a Python-based serial monitor, follow these steps:
    ```
 
 5. **Monitor Output**:
-   The console output should be identical to what you would see using the ESP-IDF monitor tool or other serial monitoring tools like `minicom`.
+   The console output should be identical (after you reset the uC if it has been running and finsihed its single job) to what you would see using the ESP-IDF monitor (or similar if the ambient dependencies changes) tool or other serial monitoring tools like `minicom`.
    <img src="https://github.com/DuT0mi/IntelliSenseHW-temp/blob/main/img/python-serial.png"/>
    
 ## Literature Used
