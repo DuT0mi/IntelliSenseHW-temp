@@ -42,14 +42,14 @@ Follow these steps to configure and deploy the solution:
    ```bash
    sudo dmesg | grep tty
    ```
-
+<img src="https://github.com/DuT0mi/IntelliSenseHW-temp/blob/main/img/hw_setup.jpeg" />
 5. **Build and Flash**:
    Build the project, set up mandatory parameters, and flash the firmware. Replace the port (e.g. `/dev/ttyACM0`) with the detected one if different.
    ```bash
    idf.py -p /path/to/port -b 115200 build flash monitor
    ```
    If successful, you should see output similar to the following in the terminal:
-    <img src="https://github.com/DuT0mi/IntelliSenseHW-temp/blob/main/img/esp-idf-serial.png" />
+   <img src="https://github.com/DuT0mi/IntelliSenseHW-temp/blob/main/img/esp-idf-serial.png" />
 
 6. **Alternate Monitoring Tools**:
    After closing the monitor tool provided by ESP-IDF (ctrl+x &rarr; ctrl+t &rarr; ctrl+x), you can use alternate tools like `minicom` for monitoring. Refer to [this guide](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom) for setup instructions.
@@ -79,7 +79,7 @@ To use a Python-based serial monitor, follow these steps:
    ```
 
 5. **Monitor Output**:
-   The console output should be identical (after you reset the uC if it has been running and finsihed its single job) to what you would see using the ESP-IDF monitor (or similar if the ambient dependencies changes) tool or other serial monitoring tools like `minicom`.
+   The console output should be identical (after you reset the uC if it has been running and finsihed its single job) to what you would see using the ESP-IDF monitor (or similar if the ambient dependencies has changed) tool or other serial monitoring tools like `minicom`.
    <img src="https://github.com/DuT0mi/IntelliSenseHW-temp/blob/main/img/python-serial.png"/>
    
 ## Literature Used
